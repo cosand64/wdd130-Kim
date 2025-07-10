@@ -17,12 +17,20 @@ header {
 }
 
 nav {
-    display: flex;
+    display: grid;
     border: 2px solid #FCEEB5;
-    padding: 10px 0;
-    max-width: 500px;
-    justify-items: center;
-    justify-content: space-evenly;
+    padding: 10px 0px;
+    grid-template-columns: repeat(6, 1fr);
     font-size: 1.5em;
+    text-align: center;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bandpic{
+    margin: auto;
+    
+}
