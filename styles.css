@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Shrikhand&display=swap');
+
 body {
     background-color: #C8B9D6;
 }
@@ -23,14 +25,44 @@ nav {
     grid-template-columns: repeat(6, 1fr);
     font-size: 1.5em;
     text-align: center;
+    font-family: 'Shrikhand';
+}
+
+a {
+    color:#5A8F87;
+}
+
+a:hover {
+    color: #FFB3A7;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0px;
 }
 
-#bandpic{
+p {
+    font-family: 'Karla';
+    color: #5A8F87;
+}
+
+#bandpic {
     margin: auto;
-    
+}
+
+#bandAbt{
+    grid-column: 2 / 4; 
+}
+
+footer {
+    margin: auto;
+    border: 2px solid #FCEEB5;
+    font-family: 'Shrikhand';
+}
+
+#follow {
+    float: left;
+    padding: 0px 25px;
+    color: #5A8F87;
 }
